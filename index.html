@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List Implementation</title>
+    <link rel="stylesheet" href="css/c07.css" />
+  </head>
+  <body>
+    <div id="page">
+     <br>
+      <h2>TV Series to Watch </h2>
+      <br>
+      <h2>You have <span id="counter"></span> things to do!</h2>
+      <br>
+      <ul>
+        <li id="one" class="ongoing">Scandal</li>
+        <li id="two" class="ongoing">New Girl</li>
+        <li id="three" class="ongoing">Castle</li>
+        <li id="four">Suits</li>
+      </ul>
+      <br><br>
+      <h2>You have completed these!</h2>
+      <br>
+      <ul>
+      </ul>
+
+      <br><br>
+      <h3>Add New Item </h3>
+      
+      <form id="newItemForm">
+        <input type="text" id="itemDescription" placeholder="Add description" />
+        <input type="submit" id="add" value="add" />
+      </form>
+    </div>
+    <script src="jquery/jquery-1.11.0.js"></script>
+    <script src="example.js"></script>
+    <script src="jquery/jquery.singleclick.js"></script>
+  </body>
+</html>
